@@ -125,4 +125,15 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+
+    /**
+     * Displays menu page.
+     *
+     * @return string
+     */
+    public function actionMenu()
+    {
+        return $this->render('menu');
+    }
 }
